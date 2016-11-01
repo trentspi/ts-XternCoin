@@ -3,11 +3,12 @@ XternCoin Project Submission by Trenton Spice
 
 
 XternCoin operates like this: The "server" (your code you are writing) stores a single random number. Clients have to guess what this number is. If they guess correctly, the app awards them 1 coin and chooses a new random number for the next guess.
-Today, we are going to write a few functions XternCoin's server will need.
+There are three functions XternCoin's server will need.
 
 
 func HandleGuess(userId string, guess int) bool {}
 Function which takes a user's id and a user's guess, and returns whether or not their guess was correct.
+
 func GetCoins(userId string) int {}
 Function which takes a userid and returns how many coins they have.
 
