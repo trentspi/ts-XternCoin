@@ -1,8 +1,4 @@
 '''
-XternCoin Logic + Function Housing
-
-XternCoin numbers can be between 0 and 10
-
 Trenton Spice
 '''
 
