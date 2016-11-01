@@ -2,6 +2,8 @@
 XternCoin Project Submission by Trenton Spice
 
 
+# Project Description
+
 XternCoin operates like this: The "server" (your code you are writing) stores a single random number. Clients have to guess what this number is. If they guess correctly, the app awards them 1 coin and chooses a new random number for the next guess.
 There are three functions XternCoin's server will need.
 
